@@ -15,6 +15,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .desktop__popup__overlay {
@@ -39,6 +40,7 @@
   gap: 0.5rem;
   align-items: center;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 #add {

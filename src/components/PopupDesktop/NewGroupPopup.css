@@ -125,6 +125,7 @@ text-align: left;
   background-color: black;
   float: right;
   margin: 10px;
+  cursor: pointer;
 }
 
 .highlight{

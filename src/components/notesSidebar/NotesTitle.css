@@ -11,6 +11,7 @@
     padding-left: 3vw;
     font-size: 1rem;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .title__logo{
@@ -29,4 +30,5 @@
 .highlighted__title{
     background-color: #F7ECDC;
     color: black;
+    cursor: pointer;
 }
