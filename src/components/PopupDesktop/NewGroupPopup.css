@@ -1,0 +1,133 @@
+.PopUp{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
+  width: 440px;
+  height: 217px;
+  border: 2px solid rgb(204, 204, 204);
+
+}
+
+.Ptitle {
+  font-family: Roboto;
+font-size: 29px;
+font-weight: 500;
+line-height: 46px;
+letter-spacing: 0.035em;
+text-align: left;
+padding: 8px;
+
+}
+.pinput{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+}
+#intext{
+  font-family: Roboto;
+font-size: 27px;
+font-weight: 500;
+line-height: 44px;
+letter-spacing: 0.035em;
+text-align: left;
+
+}
+#pinput{
+  height: 30px;
+  width: 240px;
+  border-radius: 22px;
+}
+#gctext{
+  font-family: Roboto;
+font-size: 27px;
+font-weight: 500;
+line-height: 44px;
+letter-spacing: 0.035em;
+text-align: left;
+
+}
+
+
+.P-C-input {
+  display: flex;
+  justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.P-C-I-color {
+  display: flex;
+}
+
+.popup__color__input__color__1,
+.popup__color__input__color__2,
+.popup__color__input__color__3,
+.popup__color__input__color__4,
+.popup__color__input__color__5,
+.popup__color__input__color__6 {
+  /* background-color: #b38bfa; */
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.popup__color__input__color__1{
+    background-color: #B38BFA;
+}
+
+.popup__color__input__color__2{
+    background-color: #FF79F2;
+}
+
+.popup__color__input__color__3{
+    background-color: #43E6FC;
+}
+
+.popup__color__input__color__4{
+    background-color: #F19576;
+}
+
+.popup__color__input__color__5{
+    background-color: #0047FF;
+}
+
+.popup__color__input__color__6{
+    background-color: #6691FF;
+}
+
+.popup__close {
+  /* height: 2rem;
+  width: 23rem;
+  display: flex;
+  justify-content: flex-end;
+  margin: 1vh 1vh 1vh 1vh; */
+}
+::placeholder {
+  padding-left: 10px;
+}
+
+.popup__close > button {
+  margin-top: 1rem;
+  height: 35px;
+  width: 8vw;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 4vh;
+  background-color: black;
+  float: right;
+  margin: 10px;
+}
+
+.highlight{
+    border: 2px solid black;
+    border-radius: 6vh;
+}
