@@ -47,7 +47,7 @@ function CreateNotesPopup({ groupNamesParent, setGroupNamesParent, onClose }) {
         />
       </div>
       <div className="P-C-input">
-        <p id="gctext">Group Color</p>
+        <p id="gctext">Choose colour</p>
         <div className="P-C-I-color">
           <div
             className={`popup__color__input__color__1 ${
