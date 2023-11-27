@@ -37,7 +37,7 @@ function MobilePopup({ onClose, groupNamesParent, setGroupNamesParent}) {
         />
       </div>
       <div className="mobile__popup__color__input">
-        <span>Group Color</span>
+        <span>Choose colour</span>
         <div className="mobile__popup__color__input__color">
           <div
             className={`mobile__popup__color__input__color__1 ${

@@ -1,5 +1,5 @@
 .mobile__popup {
-  position: fixed;
+  /* position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -12,17 +12,39 @@
   justify-content: center;
   align-items: center;
   padding: 2vh;
-  z-index: 9999;
+  z-index: 9999; */
+  width: 284px;
+height: 211px;
+top: 238px;
+left: 38px;
+border-radius: 8px;
+background-color: white;
+padding: 20px;
+
 }
 
 .mobile__popup__title {
-  text-align: left;
+  /* text-align: left;
   height: 5vh;
   width: 90vw;
   font-size: 3.2vh;
   font-weight: 700;
-  margin-left: 5vw;
+  margin-left: 5vw; */
+  margin-top: 12px;
+  font-family: Roboto;
+font-size: 18px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0.035em;
+text-align: left;
+
 }
+/* .mobile__popup__input > input > ::placeholder{
+  width: 20px;
+height: 16px;
+
+
+} */
 
 .mobile__popup__input {
   height: 8vh;
@@ -33,11 +55,12 @@
   justify-content: center;
   gap: 2vw;
   align-items: center;
-  margin: 1vh 1vh 1vh 1vh;
+  /* margin: 1vh 1vh 1vh 1vh; */
 }
 
 .mobile__popup__input > input {
-    width: 60vw;
+    /* width: 60vw; */
+    width: 40vw;
     height: 3vh;
     border: 2px solid grey;
     border-radius: 6vh;
@@ -45,6 +68,7 @@
     font-size: 2vh;
     font-weight: 600;
 }
+
 
 .mobile__popup__color__input{
     height: 5vh;
@@ -56,15 +80,22 @@
 }
 
 .mobile__popup__color__input > span{
-    font-size: large;
-    font-weight: 600;
+    /* font-size: large;
+    font-weight: 600; */
+    font-family: Roboto;
+font-size: 15px;
+font-weight: 500;
+line-height: 23px;
+letter-spacing: 0.035em;
+text-align: left;
+
 }
 
 .mobile__popup__color__input__color{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2vw;
+    gap: 1vw;
 }
 
 .mobile__popup__color__input__color__1,
@@ -106,17 +137,17 @@
 }
 
 .mobile__popup__close {
-  height: 5vh;
-  width: 90vw;
+  /* height: 5vh; */
+  /* width: 90vw; */
   display: flex;
-  justify-content: flex-end;
-  margin: 1vh 1vh 1vh 1vh;
+  justify-content: center;
+  /* margin: 1vh 1vh 1vh 1vh; */
 }
 
 .mobile__popup__close > button {
   margin-top: 1rem;
-  height: 6vh;
-  width: 25vw;
+  height: 32px;
+  width:186px;
   color: white;
   font-weight: 500;
   border: none;
