@@ -41,8 +41,6 @@ function DesktopSidebar() {
       setShowPopup(false);
     }
   };
-  
-  
 
   useEffect(() => {
     document.addEventListener("mousedown", handleClickOutside);
@@ -52,10 +50,10 @@ function DesktopSidebar() {
   }, []);
 
   return (
-    <div className="desktop__sidebar" ref={popupRef} >
-      <div className="desktop__sidebar__title"   >Pocket Notes</div>
-     
-      <div className="desktop__sidebar__create__notes__btn" >
+    <div className="desktop__sidebar">
+      <div className="desktop__sidebar__title">Pocket Notes</div>
+
+      <div className="desktop__sidebar__create__notes__btn">
         <button onClick={handleClick}>
           <span id="add">+</span>
           <span>Create Notes Group</span>
@@ -71,7 +69,7 @@ function DesktopSidebar() {
         )}
       </div>
       {showPopup && (
-        <div className="desktop__popup__overlay">
+        <div className="desktop__popup__overlay" onClick={handleClose}>
           <CreateNotesPopup
             groupNamesParent={groupNamesParent}
             setGroupNamesParent={setGroupNamesParent}
