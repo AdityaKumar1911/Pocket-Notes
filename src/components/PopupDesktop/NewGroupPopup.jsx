@@ -5,6 +5,7 @@ import "reactjs-popup/dist/index.css";
 function CreateNotesPopup({ groupNamesParent, setGroupNamesParent, onClose }) {
   const [groupName, setGroupName] = useState("");
   const [bgColor, setBgColor] = useState("");
+  
 
   const handleGroupName = (e) => {
     setGroupName(e.target.value);
