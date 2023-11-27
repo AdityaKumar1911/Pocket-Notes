@@ -30,7 +30,7 @@ padding: 8px;
 }
 #intext{
   font-family: Roboto;
-font-size: 27px;
+font-size: 22px;
 font-weight: 500;
 line-height: 44px;
 letter-spacing: 0.035em;
@@ -39,12 +39,12 @@ text-align: left;
 }
 #pinput{
   height: 30px;
-  width: 240px;
+  width: 260px;
   border-radius: 22px;
 }
 #gctext{
   font-family: Roboto;
-font-size: 27px;
+font-size: 22px;
 font-weight: 500;
 line-height: 44px;
 letter-spacing: 0.035em;
